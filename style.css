@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.page1{
+    height: 100vh;
+    width:  100%;
+    /* border: 9px solid black; */
+}
+.nav1{
+ display: flex;
+ height: 19vh;
+ width: 100%;
+ /* border: 2px solid red; */
+}
+.threeline{
+    height: 20vh;
+    width: 5%;
+    /* border: 2px solid blue; */
+}
+.imgWiki{
+    height: 20vh;
+    width: 6%;
+    /* border: 2px solid blue; */
+}
+.textWiki{
+    height: 20vh;
+    width: 13%;
+    /* border: 2px solid blue; */
+}
+.search{
+    display: flex;
+    height: 20vh;
+    width: 58%;
+    /* border: 2px solid blue; */
+}
+#change{
+    height:7vh; 
+    width:11% ;
+   margin-top: 10px;
+}
+.change1:hover{
+    border-color: none;
+    background-color: white;
+}
+
+.conte{
+    display: flex;
+    height: 20vh;
+    width: 16%;
+    /* border: 2px solid blue; */
+}
+.links{
+    height: 80vh;
+    width: 26.3%;
+    /* border: 1px solid black; */
+    position: fixed;
+}
+.headings{
+    height: 5vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#headings1{
+    height: 15vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.Article{
+    margin-left: 333px;
+    width: 74%;
+    /* border: 1px solid black; */
+    display: block;
+}
+.art{
+    height: 8vh;
+    width: 100%;
+    /* border: 2px solid; */
+    display: flex;
+ }
+ .links1{
+    height: 7vh;
+    width: 100%;
+    /* border: 2px solid; */
+    display: flex;
+    /* align-items: baseline; */
+    margin-top: 10px;
+ }
+ .picture{
+    height: 46vh;
+    width: 100%;
+    /* border: 2px solid; */
+    display: flex;
+ }
+ .text{
+    /* border: 2px solid black; */
+    width: 74%;
+    margin-left: 333px;
+    /* display: none; */
+ }
+ .active{
+    display: block;
+ }
+ .hidden{
+    display: none;
+ }
